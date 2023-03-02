@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %} Youtube {% endblock %}
+
+{% block content %}
+
+    <div class="toast-container position-static">
+        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+          <div class="toast-header">
+            <img src="source" class="rounded me-2" alt="Bootstrap">
+            <strong class="me-auto">Bootstrap</strong>
+            <small class="text-muted">just now</small>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+          </div>
+          <div class="toast-body">
+            See? Just like this.
+          </div>
+        </div>
+      
+        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+          <div class="toast-header">
+            <img src="source" class="rounded me-2" alt="Bootstrap 2">
+            <strong class="me-auto">Bootstrap 2</strong>
+            <small class="text-muted">just now</small>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+          </div>
+          <div class="toast-body">
+            Heads up, toasts will stack automatically
+          </div>
+        </div>
+      </div>
+
+{% endblock %}
